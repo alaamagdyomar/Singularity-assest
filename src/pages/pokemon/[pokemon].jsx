@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useGlobalContext } from "../../store";
+import { useGlobalContext } from "../../store/useGlobalContext";
 import { useRouter } from "next/router";
 import Loading from "../../components/Loading";
 import { PokemonBg, PokemonImage, PokemonBody, PokemonInfo, PokemonInfoItem } from '../../styles/pokemonStyles';

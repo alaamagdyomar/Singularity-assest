@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useGlobalContext } from "../store";
+import { useGlobalContext } from "../store/useGlobalContext";
 import Router from "next/router";
 import {
     Main,
